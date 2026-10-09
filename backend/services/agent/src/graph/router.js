@@ -1,4 +1,4 @@
-import { getModel } from "../models/llm.models";
+import { getModel } from "../models/llm.models.js";
 
 export const router = async (state) => {
   const llm = await getModel("router"); // Get the appropriate LLM based on the agent type
